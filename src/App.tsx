@@ -1,18 +1,13 @@
 import React from 'react'
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min'
 import './App.css'
 
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Home from './Home'
-import Authentication from './Authentication';
-import Registration from './Registration';
+import Authentication from './Authentication'
+import Registration from './Registration'
 
 class App extends React.Component<any, any> {
     render() {
