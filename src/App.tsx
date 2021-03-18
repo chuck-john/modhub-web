@@ -5,8 +5,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min'
 import './App.css'
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-import Home from './Home'
+
 import Authentication from './Authentication'
+import Home from './Home'
 import Registration from './Registration'
 
 class App extends React.Component<any, any> {
